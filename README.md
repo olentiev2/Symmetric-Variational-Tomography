@@ -2,20 +2,20 @@
 
 Core code containing functions needed to perform estimation of quantum states with arbitrary symmetries, in combination with the VQT technique (a variant of the MaxEnt technique). 
 
-The theory of combining symmetries with MaxEnt was presented in references **[1, 2]**, and studied numerically in **[3]**. Subsequent improvements and numerical simulations were presented in **[4]**, and in **[5]**, the technique was used to benchmark quantum computers. Different versions and improvements of the functions presented here were used in **[3, 4, 5]**. The content of this repository
+The theory of combining symmetries with MaxEnt was presented in references **[1, 2]**, and studied numerically in **[3]**. Subsequent improvements and numerical simulations were presented in **[4]**, and in **[5]**, the technique was used to benchmark quantum computers. Different versions and improvements of the functions presented here were used in **[3, 4, 5]**. The contents of this repository provide the implementation tools used across these studies.
 
 ---
 
 ## 📁 Files & Usage
 
 * **`Bases_Generator.py`**  
-  Contains the core functions to generates bases of the symmetric subspaces used to reparameterize a density operator for state estimation. It takes as input the symmetries of the system communicated in terms of group generators. This leverages system symmetries to significantly reduce the number of observables needed for state reconstruction.
+  Contains core functions to generate bases of symmetric subspaces used to reparameterize a density operator for state estimation. It takes as input the symmetries of the system communicated in terms of group generators. This leverages system symmetries to significantly reduce the number of observables needed for state reconstruction.
 
 * **`Optimization_Problem.py`**  
-  Contains contains the optimization part.  
+  Contains the implementation for the optimization routine.
 
 * **`funciones_SP.py`**  
-  Contains different auxiliary functions that can be useful for doing tensor products, etc.
+  Contains auxiliary functions useful for matrix operations, tensor products, and related tasks.
 
 ---
 
