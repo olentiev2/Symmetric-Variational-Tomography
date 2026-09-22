@@ -2,7 +2,9 @@
 
 Core code containing functions needed to perform estimation of quantum states with arbitrary symmetries, in combination with the VQT technique (a variant of the MaxEnt technique). 
 
-The theory of combining symmetries with MaxEnt was presented in references **[1, 2]**, and studied numerically in **[3]**. Subsequent improvements and numerical simulations were presented in **[4]**, and in **[5]**, the technique was used to benchmark quantum computers. Different versions and improvements of the functions presented here were used in **[3, 4, 5]**. The contents of this repository provide the implementation tools used across these studies.
+The theory of combining symmetries with MaxEnt was presented in references **[1, 2]**, and studied numerically in **[3]**. Subsequent improvements and numerical simulations were presented in **[4]**, and in **[5]**, the technique was used to benchmark quantum computers. Different versions and improvements of the functions presented here were used in **[3, 4, 5]**. The contents of this repository provide the implementation tools used across these studies. 
+
+By combining the core functions presented here, the user can combine the parametrization that uses arbitrary symmetries of otherwise unknown quantum states with estimation techniques different than VQT, such as MaxLik (see for example [5]).
 
 ---
 
